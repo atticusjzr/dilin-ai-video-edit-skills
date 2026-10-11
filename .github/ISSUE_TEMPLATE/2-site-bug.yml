@@ -1,0 +1,26 @@
+name: 堤麟网站／剪辑页问题 / Dilin AI site bug
+description: 剪辑页、云端硬碟、MCP 连线、登入这类网站端的问题（我们会转给网站团队）
+labels: ["site"]
+body:
+  - type: markdown
+    attributes:
+      value: 网站端的问题也可以直接在 dilinai.com 里请角色「回报问题」，处理会更快。
+  - type: input
+    id: where
+    attributes:
+      label: 哪个页面或功能 / Where
+      placeholder: 剪辑页预览、MCP 登入、云端硬碟上传…
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: 浏览器与系统 / Browser & OS
+      placeholder: Chrome 140 / Windows 11
+  - type: textarea
+    id: what
+    attributes:
+      label: 发生了什么 / What happened
+      description: 截图很有帮助。⛔ 别贴钥匙或带票的网址。
+    validations:
+      required: true

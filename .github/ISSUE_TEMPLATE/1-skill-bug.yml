@@ -1,0 +1,29 @@
+name: 技能问题 / Skill bug
+description: 技能本身出错：参数、脚本、示范工程、安装、说明写错
+labels: ["skill"]
+body:
+  - type: input
+    id: skill
+    attributes:
+      label: 哪个技能 / Skill
+      placeholder: memory-flash-edit
+    validations:
+      required: true
+  - type: input
+    id: client
+    attributes:
+      label: 你用的 AI 软件 / AI client
+      placeholder: Claude Code 2.1.x、Codex、Cursor、Claude 网页版…
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: 发生了什么、你期望什么 / What happened vs. expected
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: 重现步骤与报错原文 / Steps & error text
+      description: ⛔ 别贴 API 钥匙、登入网址里的票、云盘档案编号以外的个人资料。

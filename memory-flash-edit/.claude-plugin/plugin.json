@@ -1,0 +1,18 @@
+{
+  "name": "memory-flash-edit",
+  "version": "1.0.0",
+  "description": "回忆快闪剪辑技巧：照片每张 1 秒、1.08 缓出缩回、柔光、闪白叠化、首尾渐显渐隐，在堤麟AI网页剪辑里一次排好；附示范工程与素材。装好会自动接上堤麟 MCP。",
+  "author": {
+    "name": "Dilin AI（堤麟AI）",
+    "url": "https://dilinai.com"
+  },
+  "homepage": "https://dilinai.com/docs/video-edit",
+  "keywords": [
+    "video-edit",
+    "dilinai",
+    "memory-flash",
+    "回忆快闪",
+    "剪辑"
+  ],
+  "license": "Apache-2.0"
+}

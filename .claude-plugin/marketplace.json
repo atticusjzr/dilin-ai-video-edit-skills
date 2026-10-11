@@ -1,0 +1,17 @@
+{
+  "name": "dilin-ai-video-edit-skills",
+  "owner": { "name": "Dilin AI（堤麟AI）", "url": "https://dilinai.com" },
+  "metadata": {
+    "description": "堤麟AI的剪辑技巧技能集：每个插件是一个单独的剪辑技巧，在堤麟网页剪辑里由 AI 直接排好。",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "memory-flash-edit",
+      "source": "./memory-flash-edit",
+      "description": "回忆快闪：照片每张 1 秒、缩放缓出、柔光、闪白叠化、首尾渐显渐隐",
+      "version": "1.0.0",
+      "category": "video-edit"
+    }
+  ]
+}

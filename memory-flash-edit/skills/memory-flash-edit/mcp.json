@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "dilinai": {
+      "type": "http",
+      "url": "https://dilinai.com/api/mcp"
+    }
+  }
+}
